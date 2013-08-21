@@ -1,0 +1,15 @@
+{
+  "name": "data_bag_item_users_app",
+  "json_class": "Chef::DataBagItem",
+  "chef_type": "data_bag_item",
+  "data_bag": "users",
+  "raw_data": {
+    "id": "app",
+    "ssy_keys": {
+      "encrypted_data": "cDxIr4LyuOnVvYONkTWdTtRlEM6JqH4Dw5RIBOphEzcBquao1/1EK/4DxIgn\ndJYs9iVtXK10MAIxQOLK9Bc8sM72QMyHxBgSu1AjN1ZtEktPxxSlLgSMU3Jb\nuuXRtm/oz8Vz8c/PSm61rBxdFfmWbOKSobE7/w0yPy2mkNOmdtcNpbF+85UA\nH7yE109AlKePZnKM5ySFY/dtbgQNUGiDBJgSOozpH2EDE+GeyrMsLGCXpt2V\nMmJa7lb4dUm1fGwiZXei4wUAnmB16FxxgwYY18aVYhn1pc95od97FtCO3Hap\nGZZd5YnhBxcdz148GVV2DzoRGHrGLPJ276TAKOIPDrTxBNGBZzDejcasIns/\nlYpp/FzI2jKBzzERQvnB4g0Hz4+6I5F3dELNWn3Cp6fKUZE1MxR2YIx2z8z/\n5IofTjXdALsLqGKYQdNPQRyBUMCy1+8GQagzY6lb5k2s/J6Y+fGCCYKIn8iL\nSEKt8cF3v12QLiXheAwYoLz65OFB5k5Vji8WfK9+STzRNsXxFFfLIG1zm023\nbA8PBvy0ywv6FigVbT5+FA9Cs0vKwiQZwlwD\n",
+      "iv": "TPNKrjHS1OxMXIaXh8dOzQ==\n",
+      "version": 1,
+      "cipher": "aes-256-cbc"
+    }
+  }
+}

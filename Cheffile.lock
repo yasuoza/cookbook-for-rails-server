@@ -1,0 +1,64 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    aws (0.100.2)
+    build-essential (1.1.2)
+    database (1.3.4)
+      aws (>= 0.0.0)
+      mysql (>= 1.3.0)
+      postgresql (>= 1.0.0)
+      xfs (>= 0.0.0)
+    dmg (1.0.0)
+    git (1.0.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    iptables (0.12.0)
+    mysql (3.0.2)
+      build-essential (> 1.1.0)
+      openssl (>= 0.0.0)
+    openssh (1.2.0)
+      iptables (>= 0.0.0)
+    openssl (1.0.0)
+    perl (1.0.2)
+    phantomjs (0.0.10)
+    postgresql (1.0.0)
+      openssl (>= 0.0.0)
+    python (1.0.8)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    readline (0.0.3)
+    redisio (1.1.0)
+    ruby_build (0.8.0)
+    runit (0.15.0)
+    xfs (1.0.0)
+    xml (1.0.4)
+    yum (0.8.2)
+    zlib (1.0.0)
+    zsh (1.0.0)
+
+GIT
+  remote: git://github.com/fnichol/chef-rbenv.git
+  ref: v0.7.2
+  sha: f2b53292e810dd2b43f6121f9958f5f29979dcb1
+  specs:
+    rbenv (0.7.2)
+
+DEPENDENCIES
+  build-essential (>= 0)
+  database (>= 0)
+  git (>= 0)
+  mysql (~> 3.0.2)
+  openssh (~> 1.2.0)
+  perl (>= 0)
+  phantomjs (>= 0)
+  python (>= 0)
+  rbenv (>= 0)
+  readline (>= 0)
+  redisio (>= 0)
+  ruby_build (>= 0)
+  xml (>= 0)
+  zlib (>= 0)
+  zsh (>= 0)
+
