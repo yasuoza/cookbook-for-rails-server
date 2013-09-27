@@ -6,6 +6,7 @@ Server setups
 
 * zsh
 * mysql5.6
+* redis
 * openssh
 * rbenved ruby
 
