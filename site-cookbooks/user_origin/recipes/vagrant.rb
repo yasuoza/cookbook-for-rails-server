@@ -1,6 +1,5 @@
 # Include cookbook dependencies
-%w{ build-essential readline xml zlib
-    redisio::install redisio::enable }.each do |requirement|
+%w{ build-essential readline xml zlib }.each do |requirement|
   include_recipe requirement
 end
 
