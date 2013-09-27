@@ -1,4 +1,4 @@
-Cookbook for minimum rails server
+Cookbook for rails server
 =================
 
 Server setups
